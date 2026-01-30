@@ -1,0 +1,124 @@
+.h-wrapper{
+    background: var(--black);
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding: 0 3rem;
+    color: var(--secondary);
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.h-menu{
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.h-menu > a{
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    color: var(--secondary);
+    letter-spacing: 0.3px;
+}
+
+.h-menu > a:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.h-menu > a::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gradient-gold);
+    transition: width 0.3s ease;
+}
+
+.h-menu > a:hover::after{
+    width: 100%;
+}
+
+.h-menu .button{
+    margin-left: 1rem;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background: var(--gradient-blue);
+    border-radius: 6px;
+    box-shadow: var(--shadow-soft);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.h-menu .button a{
+    color: var(--white);
+}
+
+.h-menu .button:hover{
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
+.h-container img{
+    transition: transform 0.3s ease;
+}
+
+.h-container img:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .h-container{
+        padding: 1.5rem 2rem;
+    }
+    
+    .h-menu{
+        gap: 1.5rem;
+    }
+    
+    .h-menu > a{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .h-container{
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+    
+    .h-menu{
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .h-menu .button{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .h-container{
+        padding: 1rem;
+    }
+    
+    .h-container img{
+        width: 150px;
+    }
+}
