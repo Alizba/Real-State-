@@ -60,7 +60,7 @@
     line-height: 4.8rem;
     letter-spacing: -1px;
     margin-bottom: 0;
-    animation: fadeInUp 0.8s ease-out;
+    /* animation: fadeInUp 0.8s ease-out; */
 }
 
 .hero-title .highlight{
@@ -82,14 +82,14 @@
     z-index: -1;
     filter: blur(20px);
     opacity: 0.6;
-    animation: pulse 3s ease-in-out infinite;
+    /* animation: pulse 3s ease-in-out infinite; */
 }
 
 .hero-des{
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    animation: fadeInUp 0.8s ease-out 0.2s backwards;
+    /* animation: fadeInUp 0.8s ease-out 0.2s backwards; */
 }
 
 .hero-des .secondaryText{
@@ -110,7 +110,7 @@
     gap: 1rem;
     width: 100%;
     transition: all 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.4s backwards;
+    /* animation: fadeInUp 0.8s ease-out 0.4s backwards; */
 }
 
 .search-bar:hover{
@@ -144,7 +144,7 @@
     display: flex;
     gap: 3rem;
     margin-top: 1rem;
-    animation: fadeInUp 0.8s ease-out 0.6s backwards;
+    /* animation: fadeInUp 0.8s ease-out 0.6s backwards; */
 }
 
 .stat{
@@ -181,7 +181,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeInRight 1s ease-out 0.3s backwards;
+    /* animation: fadeInRight 1s ease-out 0.3s backwards; */
 }
 
 .image-container{

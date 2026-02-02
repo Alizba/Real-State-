@@ -1,26 +1,49 @@
 [
-    {
-        "name": "Muhammad Armaghan",
-        "price" : "900,000",
-        "detail" : "Gullberg Greens Islamabad, Block A, Building # 49",
-        "image" : "./Armaghan.png"
-    },
-    {
-        "name": "Muhammad Armaghan",
-        "price" : "900,000",
-        "detail" : "Gullberg Greens Islamabad, Block A, Building # 49",
-        "image" : "./Armaghan.png"
-    },
-    {
-        "name": "Muhammad Armaghan",
-        "price" : "900,000",
-        "detail" : "Gullberg Greens Islamabad, Block A, Building # 49",
-        "image" : "./Armaghan.png"
-    },
-    {
-        "name": "Muhammad Armaghan",
-        "price" : "900,000",
-        "detail" : "Gullberg Greens Islamabad, Block A, Building # 49",
-        "image" : "./Armaghan.png"
-    }
+  {
+    "name": "Armaghan",
+    "price": "900,000",
+    "detail": "Gulberg Greens Islamabad, Block A, Building 49",
+    "image": "/images/Armagan.jpg"
+  },
+  {
+    "name": "Royal Vista Residency",
+    "price": "1,250,000",
+    "detail": "Bahria Town Phase 7, Rawalpindi",
+    "image": "/images/GreenValley.jpg"
+  },
+  {
+    "name": "Green Valley",
+    "price": "780,000",
+    "detail": "DHA Phase 2, Islamabad",
+    "image": "/images/RoyalVista.jpg"
+  },
+  {
+    "name": "Skyline Luxury Homes",
+    "price": "1,850,000",
+    "detail": "E-11 Sector, Islamabad",
+    "image": "/images/SkyLines.jpg"
+  },{
+    "name": "Armaghan",
+    "price": "900,000",
+    "detail": "Gulberg Greens Islamabad, Block A, Building 49",
+    "image": "/images/Armagan.jpg"
+  },
+  {
+    "name": "Royal Vista Residency",
+    "price": "1,250,000",
+    "detail": "Bahria Town Phase 7, Rawalpindi",
+    "image": "/images/GreenValley.jpg"
+  },
+  {
+    "name": "Green Valley",
+    "price": "780,000",
+    "detail": "DHA Phase 2, Islamabad",
+    "image": "/images/RoyalVista.jpg"
+  },
+  {
+    "name": "Skyline Luxury Homes",
+    "price": "1,850,000",
+    "detail": "E-11 Sector, Islamabad",
+    "image": "/images/SkyLines.jpg"
+  }
 ]

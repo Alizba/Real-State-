@@ -1,0 +1,30 @@
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.companyImg {
+  padding: 1.2rem;
+  border-radius: 12px;
+}
+
+.companyImg img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.companyImg:hover img {
+  filter: grayscale(0%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .companyImg img {
+    width: 90px;
+  }
+}

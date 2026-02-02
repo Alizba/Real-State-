@@ -62,7 +62,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+
 }
 .primaryText{
   color: var(--primary);
