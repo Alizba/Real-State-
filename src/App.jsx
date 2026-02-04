@@ -7,6 +7,7 @@ import Residencies from './components/residencies/Residencies'
 import Value from './components/value/Value'
 import Contact from './components/contact/contact'
 import CTA from './components/CTA/cta'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Value/>
       <Contact/>
       <CTA/>
+      <Footer/>
     </>
   )
 }
